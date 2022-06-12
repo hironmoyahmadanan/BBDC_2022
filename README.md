@@ -26,3 +26,9 @@ For example, the first entry (s037t01,602) in "all_idx_video_infos.csv" states t
 
 "all_idx_video_infos.csv": For each reconstructed frame in video.mp4, specifies which video file and its frame corresponds to it.
 "all_idx_mocap_infos.csv": For each reconstructed frame in "mocap.csv" indicates which motion capture file and its frame corresponds to it.
+
+## Methodology
+
+This big data challenge was approached with RNN Multivariate Time Series Forecasting using LSTM to identify the sequence of missing frames. We were able to predict both motions captured, and video captured missing frames and converted the pixels to video.
+
+![image](https://user-images.githubusercontent.com/62265294/173184138-fa761a02-5e36-4e59-b6a3-ccfd38aa8854.png)
